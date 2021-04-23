@@ -1,6 +1,8 @@
 ```uml
 @startuml
 
+Start
+
 if ( weather == 0 ) then ( true )
 : 快晴です ;
 elseif ( weather == 1 ) then ( true )
@@ -10,6 +12,7 @@ elseif ( weather == 2 ) then ( true )
 else
 : 不明です ;
 
+endif
 
 end
 @enduml
