@@ -6,7 +6,6 @@
 |--------|----|----|----|----|
 |order_id|bigint(20)|〇|〇||
 |customer_code|varchar(50)||〇||
-|item_code|int(11)||〇||
 |purchase_date|date||〇||
 |total_price|int(11)||〇||
 
