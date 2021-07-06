@@ -1,4 +1,4 @@
-```
+```startuml
 @startuml
 customer       |o-ri-o{     order 
 order          ||-ri-|{     order_detail 
