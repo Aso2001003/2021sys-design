@@ -3,6 +3,8 @@
 
 !define MASTER_MARK_COLOR Orange 
 !define TRANSACTION_MARK_COLOR DeepSkyBlue
+!define MAIN_ENTITY #MintCream-MistyRose
+
 
 skinparam class {
     BackgroundColor Snow
