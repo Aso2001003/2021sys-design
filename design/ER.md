@@ -10,6 +10,7 @@ skinparam class {
     ArrowColor Black
 }
 
+package "ECサイト" as target_system {
 
 entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
     + customer_code [PK]
@@ -21,6 +22,7 @@ entity "顧客マスタ" as customer <m_customers> <<M,MASTER_MARK_COLOR>> {
     mail
     del_flag
     reg_date
+  
   }
 }
 
