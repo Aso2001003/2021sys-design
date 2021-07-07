@@ -25,7 +25,11 @@ package "ECサイト" as target_system {
   
     }
   
-    entity "購入テーブル" as customer <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
+    
+
+}
+
+entity "購入テーブル" as customer <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
         + order_id [PK]
         --
         customer_code [FK]
@@ -42,8 +46,6 @@ package "ECサイト" as target_system {
         num
     }
     
-
-}
 
 @enduml
 ```
