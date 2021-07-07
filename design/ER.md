@@ -42,7 +42,7 @@ package "ECサイト" as target_system {
         num
     }
     
-    entity "商品マスタ" as items <m_items> <<M,MASTER_COLOR>> {
+    entity "商品マスタ" as items <m_items> <<M,MASTER_MARK_COLOR>> {
         + item_code [PK]
         --
         item_name
