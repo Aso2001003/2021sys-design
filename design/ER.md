@@ -42,6 +42,18 @@ package "ECサイト" as target_system {
         num
     }
     
+    entity "商品マスタ" as items <m_items> <<M,MASTER_COLOR>> {
+        + item_code [PK]
+        --
+        item_name
+        price
+        category_id [FK]
+        image
+        detail
+        del_flag
+        reg_date
+    }
+    
 
 }
 
